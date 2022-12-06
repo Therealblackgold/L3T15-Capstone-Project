@@ -18,7 +18,7 @@ const NOTES_REGEX = /^\/dash\/notes(\/)?$/;
 const USERS_REGEX = /^\/dash\/users(\/)?$/;
 
 const DashHeader = () => {
-  const { username, isManager, isAdmin } = useAuth();
+  const { isManager, isAdmin } = useAuth();
 
   // navigate for useNavigate()
   const navigate = useNavigate();
