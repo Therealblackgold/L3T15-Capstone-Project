@@ -41,7 +41,6 @@ const EditUserForm = ({ user }) => {
   }, [password]);
 
   useEffect(() => {
-    console.log(isSuccess);
     // here we check which mutation is successful
     if (isSuccess || isDelSuccess) {
       // reset state

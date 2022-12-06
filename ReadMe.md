@@ -27,9 +27,9 @@ Deployed project - [gtech-app](https://gtechapp.onrender.com/)
 - CSS
 - Node
 - Express
-- JSON Web Tokens (JWT)
+- JSON Web Token
 - MongoDB
-- Jest, Mocha and Chai (for testing)
+- Jest, supertest (for testing)
 
 ---
 
@@ -39,9 +39,11 @@ Deployed project - [gtech-app](https://gtechapp.onrender.com/)
 
 Clone or download this repository.
 
-To install the server side of the project cd into the project directory gtechApp and run npm install.
+To install the server side of the project cd into the project directory gtechApp and run npm install and npm start to run the server it will start on port [http://localhost:3001] or [http://localhost:8080].
 
-To install the client side of the project cd into the client folder and run npm install.
+To install the client side of the project cd into the client directory and run npm install the npm start to run the project the app will open on port [http://localhost:3000].
+
+### important to note my security setup for the API server will only allow client side applications running on [http://localhost:3000] OR [http://localhost:3001] access to the API server or any application like postman or insomnia see config/allowedOrigins.js inside the server directory.
 
 ### step 1
 
